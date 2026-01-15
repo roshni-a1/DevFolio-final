@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Meta SEO -->
+	<meta name="title" content="DevFolio">
+	<meta name="description" content="DevFolio">
+	<meta name="keywords" content="DevFolio, index, SEO, Full Stack Web Developer, Roshni, Blog, Article">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="1 day">
+	<meta name="author" content="Roshni Akter">
+	<meta name="language" content="English">
+
+	<!-- Title -->
+	<title>DevFolio</title>
+
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	</head>
+<body>
+
+<!--header start-->
+  <header>
+	<input type="checkbox" id="sidebar-toggle" hidden>
+
+	<!-- Toggle button -->
+	<label for="sidebar-toggle" class="sidebar-toggle-btn" title="Toggle Sidebar">
+	<i class="fas fa-bars"></i>
+	</label>
+
+
+	<!-- Sidebar -->
+	<aside class="sidebar">
+  
+  <!-- Close button inside sidebar -->
+  <label for="sidebar-toggle" class="close-btn" title="Close Sidebar">
+    <i class="fas fa-times"></i>
+  </label>
+
+	<!-- Contrast toggle -->
+	<input type="checkbox" id="contrast-toggle" hidden>
+	<label for="contrast-toggle" class="contrast-btn" title="Toggle Contrast">
+	<i class="fas fa-adjust"></i>
+	</label>
+
+	<ul>
+	<li><a href="index.html" class="active" title="Home"><i class="fas fa-home"></i></a></li>
+	<li><a href="#" title="Services"><i class="fa-solid fa-file-code"></i></a></li>
+	<li><a href="#" title="CV/Resume"><i class="fa-solid fa-user-graduate"></i></a></li>
+	<li><a href="#" title="Portfolio"><i class="fa-solid fa-briefcase"></i></a></li>
+	<li><a href="#" title="Blog"><i class="fa-solid fa-feather-pointed"></i></a></li>
+	<li><a href="#" title="Contact"><i class="fas fa-envelope"></i></a></li>
+	</ul>
+	</aside>
+	</header>
+
+ <!--header end-->
+
+<!--main menu start-->
+ <!-- Hero -->
+
+	<section class="container">
+	<div class="row">
+	<div class="hero">
+
+	<!-- LEFT SIDE -->
+	<div class="col-lg-6 cl7">
+	<div class="shapes">
+	<div class="hero-left hero-content">
+	<div class="shape circle"></div>
+	<h1>I’m Rayan Adlrdard <span class="sub-title"> Front-end </span> Developer</h1>
+	<p class="hero-text">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus. </p>
+
+	<button class="btn-primary hero-button">
+	Hire Me <i class="fa-solid fa-arrow-right"></i>
+	</button>
+
+
+	<!-- Profile Button -->
+	<button class="btn pbtn btn-warning m-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasProfile">
+	Profile
+	</button>
+
+  <div class="shape circle"></div>
+
+  <div class="shape circle crl2"></div>
+
+	<!-- OFFCANVAS -->
+	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasProfile">
+	<div class="offcanvas-header">
+	<h5 class="offcanvas-title">Profile</h5>
+	<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+	</div>
+	<div class="offcanvas-body text-center">
+	<img src="image/profile.png" alt="Profile Picture" class="profile-pic mb-3">
+	<h5>Rayan Adlardard</h5>
+	<p class="text-muted">Font-End Developer</p>
+
+	<!-- Social Icons -->
+	<div class="container d-flex justify-content-center gap-3 my-3 scl-icn">
+	<i class="fa-brands fa-facebook-f"></i>
+	<i class="fa-brands fa-square-instagram"></i>
+	<i class="fa-brands fa-twitter"></i>
+	<i class="fa-brands fa-linkedin-in"></i>
+	<i class="fa-brands fa-youtube"></i>
+	<i class="fa-brands fa-dribbble"></i>
+	</div>
+
+	<div class="container line"></div>
+
+	<!-- Info -->
+	<div class="about-info">
+	<div class="info-item">
+	<div class="label">Age:</div>
+	<div class="value">24</div>
+	</div>
+	<div class="info-item">
+	<div class="label">Residence:</div>
+	<div class="value">BD</div>
+	</div>
+	<div class="info-item">
+	<div class="label">Freelance:</div>
+	<div class="value available">Available</div>
+	</div>
+	<div class="info-item">
+	<div class="label">Address:</div>
+	<div class="value">Dhaka,Bangladesh</div>
+	</div>
+	</div>
+
+
+
+	<!-- Languages -->
+	<div class="container text-start mt-4">
+	<h6 class="section-title">Languages</h6>
+	<p>Bangla 100%</p>
+	<div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
+	<p>English 80%</p>
+	<div class="bar-bg"><div class="bar-fill" style="width:80%"></div></div>
+	<p>Spanish 60%</p>
+	<div class="bar-bg"><div class="bar-fill" style="width:60%"></div></div></div>
+
+	<!-- Skills -->
+	<div class="container text-start mt-4">
+	<h6 class="section-title">Skills</h6>
+	<p>HTML 90%</p>
+	<div class="bar-bg"><div class="bar-fill" style="width:90%"></div></div>
+	<p>CSS 85%</p>
+	<div class="bar-bg"><div class="bar-fill" style="width:85%"></div></div>
+	<p>JS 80%</p>
+	<div class="bar-bg"><div class="bar-fill" style="width:80%"></div></div>
+	<p>PHP 75%</p>
+	<div class="bar-bg"><div class="bar-fill" style="width:75%"></div></div>
+	<p>WordPress 85%</p>
+	<div class="bar-bg"><div class="bar-fill" style="width:85%"></div></div></div>
+
+	<!-- Extra Skills -->
+	<div class="container text-start mt-4 extra-skills">
+	<h6 class="section-title">Extra Skills</h6>
+	<p><img src="image/icons.png" alt="profile"> Bootstrap, Materialize</p>
+	<p><img src="image/icons.png" alt="profile"> Stylus, Sass, Less</p>
+	<p><img src="image/icons.png" alt="profile"> Gulp, Webpack, Grunt</p>
+	<p><img src="image/icons.png" alt="profile"> GIT Knowledge</p></div>
+
+	<!-- Download CV -->
+	<div class="dd-cv">
+	<a href="#" class="btn btn-warning mt-5 dd-btn">
+	Download CV
+	<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+	class="bi bi-download" viewBox="0 0 16 16">
+	<path
+	d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+	<path
+	d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
+	</svg>
+	</a>
+	</div>
+	</div>
+	</div>
+	<div class="shape circle crl3"></div>
+	</div>
+	</div>
+  </div>
+	<!-- RIGHT SIDE -->
+	<div class="col-lg-5 r-s">
+	<div class="hero-right">
+	<div class="shapes">
+	<div class="shape square"></div>
+	<div class="shape circle crl4"></div>
+	<img src="image/p-img.png" alt="DevFolio" class="p-img hero-content w-100">
+	<div class="shape square sqr"></div>
+	<svg class="triangle-outline" viewBox="0 0 100 86.6">
+  <polygon points="50,0 100,86.6 0,86.6" fill="none" stroke="#8B0000" stroke-width="5"/>
+	</div>
+  </div> 
+	</div>
+	</div>
+	</div>
+	</section>
+
+<!-- Services -->
+	<section class="container services-section">
+	<div class="row">
+	<h2>My Services</h2>
+	<p class="p">Amet minim mollit non deserunt ullamco est sit aliqua dolor<br>
+	do amet sint. Velit officia consequat duis enim velit mollit.<br>
+	Lorem ipsum
+	</p>
+	<div class="row">
+	<div class="col-md-4">
+	<div class="service-box">
+	<i class="fas fa-code"></i>
+	<h5>Web Development</h5>
+	<small>Blog, E-Commerce</small>
+	</div>
+	</div>
+	<div class="col-md-4">
+	<div class="service-box">
+	<i class="fas fa-pencil-ruler"></i>
+	<h5>UI/UX Design</h5>
+	<small>Mobile App, Website Design</small>
+	</div>
+	</div>
+	<div class="col-md-4">
+	<div class="service-box">
+	<i class="fas fa-microphone"></i>
+	<h5>Sound Design</h5>
+	<small>Voice Over, Beat Making</small>
+	</div>
+	</div>
+	<div class="col-md-4">
+	<div class="service-box sb">
+	<i class="fas fa-gamepad"></i>
+	<h5>Game Design</h5>
+	<small>Character Design, Props & Objects</small>
+	</div>
+	</div>
+	<div class="col-md-4">
+	<div class="service-box sb">
+	<i class="fas fa-camera-retro"></i>
+	<h5>Photography</h5>
+	<small>Portrait, Product Photography</small>
+	</div>
+	</div>
+	<div class="col-md-4">
+	<div class="service-box sb">
+	<h5>Advertising</h5>
+	<small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi.</small>
+	<br><br>
+	<a href="#" class="order-now">ORDER NOW ></a>
+	<div>
+	</div>
+	</div>
+	</div>
+  </div>
+  </div>
+	</section>
+
+<!-- Pricing -->
+	<section class="pricing-section">
+	<a href="projects"></a>
+	<h2>Price Plans</h2>
+	<p class="p">Amet minim mollit non deserunt ullamco est sit aliqua dolor<br>
+	do amet sint. Velit officia consequat duis enim velit mollit.<br>
+	Lorem ipsum
+	</p>
+	<div class="container">
+	<div class="row g-4">
+	<!-- Silver Plan -->
+	<div class="col-md-4">
+	<div class="pricing-box">
+	<div class="pricing-title">Silver</div>
+	<div class="pricing-price">$0.00 <small>/Hour</small></div>
+	<div class="pricing-desc">For Most Businesses That Want To Optimize Web Queries</div>
+	<ul class="feature-list">
+	<li><i class="fa fa-check"></i>UI Design</li>
+	<li><i class="fa fa-check"></i>Web Development</li>
+	<li><i class="fa fa-times"></i>Logo Design</li>
+	<li><i class="fa fa-times"></i>Seo Optimization</li>
+	<li><i class="fa fa-times"></i>WordPress Integration</li>
+	<li><i class="fa fa-times"></i>5 Websites</li>
+	<li><i class="fa fa-times"></i>Unlimited User</li>
+	<li><i class="fa fa-times"></i>20 GB Bandwith</li>
+	</ul>
+	<button class="btn-order">ORDER NOW</button>
+	</div>
+	</div>
+
+	<!-- Gold Plan -->
+	<div class="col-md-4">
+	<div class="pricing-box highlighted">
+	<div class="pricing-title">Gold</div>
+	<div class="pricing-price">$50.00 <small>/Hour</small></div>
+	<div class="pricing-desc">For Most Businesses That Want To Optimize Web Queries</div>
+	<ul class="feature-list">
+	<li><i class="fa fa-check"></i>UI Design</li>
+	<li><i class="fa fa-check"></i>Web Development</li>
+	<li><i class="fa fa-check"></i>Logo Design</li>
+	<li><i class="fa fa-check"></i>Seo Optimization</li>
+	<li><i class="fa fa-times"></i>WordPress Integration</li>
+	<li><i class="fa fa-times"></i>5 Websites</li>
+	<li><i class="fa fa-times"></i>Unlimited User</li>
+	<li><i class="fa fa-times"></i>20 GB Bandwith</li>
+	</ul>
+	<button class="btn-order">ORDER NOW</button>
+	</div>
+	</div>
+
+	<!-- Diamond Plan -->
+	<div class="col-md-4">
+	<div class="pricing-box">
+	<div class="pricing-title">Dimond</div>
+	<div class="pricing-price">$80.00 <small>/Hour</small></div>
+	<div class="pricing-desc">For Most Businesses That Want To Optimize Web Queries</div>
+	<ul class="feature-list">
+	<li><i class="fa fa-check"></i>UI Design</li>
+	<li><i class="fa fa-check"></i>Web Development</li>
+	<li><i class="fa fa-check"></i>Logo Design</li>
+	<li><i class="fa fa-check"></i>Seo Optimization</li>
+	<li><i class="fa fa-check"></i>WordPress Integration</li>
+	<li><i class="fa fa-check"></i>5 Websites</li>
+	<li><i class="fa fa-check"></i>Unlimited User</li>
+	<li><i class="fa fa-check"></i>20 GB Bandwith</li>
+	</ul>
+	<button class="btn-order">ORDER NOW</button>
+	</div>
+	</div>
+
+  </div>
+	</div>
+  </section>
+
+<!-- Testimonials -->
+  <section class="recommendations-section">
+  <div class="container">
+  <div class="row">
+  <div class="text-center mb-5">
+  <h2 class="fw-bold">Recommendations</h2>
+  <p class="text-muted">
+  Amet minim mollit non deserunt ullamco est sit aliqua dolor<br>
+  do amet sint. Velit officia consequat duis enim velit mollit.<br>
+  Lorem ipsum
+  </p>
+  </div>
+  </div>
+  <div class="row">
+  <div id="recommendCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+  <div class="carousel-inner">
+  <!-- Slide 1 -->
+  <div class="carousel-item active">
+  <div class="row g-4">
+  <div class="col-12 col-md-6 col-lg-4">
+  <div class="box tbox ">
+  <div class="star text-warning mb-2">★ ★ ★ ★ ★</div>
+  <h4 class="fw-bold mb-2">Great Quality!</h4>
+  <p class="text-muted mb-4">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...</p>
+  <div class="bottom d-flex align-items-center">
+  <img src="image/t-ph.png" alt="profile" class="t-ph me-3">
+  <div class="info">
+  <div class="name fw-bold">James Gouse</div>
+  <div class="role text-muted small">Graphic Designer</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4">
+  <div class="box tbox">
+  <div class="star text-warning mb-2">★ ★ ★ ★ ★</div>
+  <h4 class="fw-bold mb-2">Amazing Work!</h4>
+  <p class="text-muted mb-4">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...</p>
+  <div class="bottom d-flex align-items-center">
+  <img src="image/t-ph2.png" alt="profile" class="t-ph me-3">
+  <div class="info">
+  <div class="name fw-bold">Tiana Philips</div>
+  <div class="role text-muted small">Photographer</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4">
+  <div class="box tbox">
+  <div class="star text-warning mb-2">★ ★ ★ ★ ★</div>
+  <h4 class="fw-bold mb-2">Great Quality!</h4>
+  <p class="text-muted mb-4">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...</p>
+  <div class="bottom d-flex align-items-center">
+  <img src="image/t-ph3.png" alt="profile" class="t-ph me-3">
+  <div class="info">
+  <div class="name fw-bold">Talan Westervelt</div>
+  <div class="role text-muted small">Business man</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- Slide 2 -->
+  <div class="carousel-item">
+  <div class="row g-4">
+  <div class="col-12 col-md-6 col-lg-4">
+  <div class="box tbox">
+  <div class="star text-warning mb-2">★ ★ ★ ★ ★</div>
+  <h4 class="fw-bold mb-2">Great Quality!</h4>
+  <p class="text-muted mb-4">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...</p>
+  <div class="bottom d-flex align-items-center">
+  <img src="image/t-ph.png" alt="profile" class="t-ph me-3">
+  <div class="info">
+  <div class="name fw-bold">James Gouse</div>
+  <div class="role text-muted small">Graphic Designer</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4">
+  <div class="box tbox">
+  <div class="star text-warning mb-2">★ ★ ★ ★ ★</div>
+  <h4 class="fw-bold mb-2">Amazing Work!</h4>
+  <p class="text-muted mb-4">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...</p>
+  <div class="bottom d-flex align-items-center">
+  <img src="image/t-ph2.png" alt="profile" class="t-ph me-3">
+  <div class="info">
+  <div class="name fw-bold">Tiana Philips</div>
+  <div class="role text-muted small">Photographer</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4">
+  <div class="box tbox">
+  <div class="star text-warning mb-2">★ ★ ★ ★ ★</div>
+  <h4 class="fw-bold mb-2">Great Quality!</h4>
+  <p class="text-muted mb-4">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...</p>
+  <div class="bottom d-flex align-items-center">
+  <img src="image/t-ph3.png" alt="profile" class="t-ph me-3">
+  <div class="info">
+  <div class="name fw-bold">Talan Westervelt</div>
+  <div class="role text-muted small">Business man</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- Slide 3 -->
+  <div class="carousel-item">
+  <div class="row g-4">
+  <div class="col-12 col-md-6 col-lg-4">
+  <div class="box tbox ">
+  <div class="star text-warning mb-2">★ ★ ★ ★ ★</div>
+  <h4 class="fw-bold mb-2">Great Quality!</h4>
+  <p class="text-muted mb-4">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...</p>
+  <div class="bottom d-flex align-items-center">
+  <img src="image/t-ph.png" alt="profile" class="t-ph me-3">
+  <div class="info">
+  <div class="name fw-bold">James Gouse</div>
+  <div class="role text-muted small">Graphic Designer</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4">
+  <div class="box tbox">
+  <div class="star text-warning mb-2">★ ★ ★ ★ ★</div>
+  <h4 class="fw-bold mb-2">Amazing Work!</h4>
+  <p class="text-muted mb-4">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...</p>
+  <div class="bottom d-flex align-items-center">
+  <img src="image/t-ph2.png" alt="profile" class="t-ph me-3">
+  <div class="info">
+  <div class="name fw-bold">Tiana Philips</div>
+  <div class="role text-muted small">Photographer</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4">
+  <div class="box tbox">
+  <div class="star text-warning mb-2">★ ★ ★ ★ ★</div>
+  <h4 class="fw-bold mb-2">Great Quality!</h4>
+  <p class="text-muted mb-4">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet...</p>
+  <div class="bottom d-flex align-items-center">
+  <img src="image/t-ph3.png" alt="profile" class="t-ph me-3">
+  <div class="info">
+  <div class="name fw-bold">Talan Westervelt</div>
+  <div class="role text-muted small">Business man</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- Indicators -->
+  <div class="carousel-indicators mt-4">
+  <button type="button" data-bs-target="#recommendCarousel" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+  <button type="button" data-bs-target="#recommendCarousel" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2"></button>
+  <button type="button" data-bs-target="#recommendCarousel" data-bs-slide-to="2" class="rounded-circle" aria-label="Slide 3"></button>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+
+<!-- Education Section -->
+  <section class="container education-section">
+  <div class="row text-center">
+  <h2 class="fw-bold">Education</h2>
+  <p class="text-muted p">
+  Amet minim mollit non deserunt ullamco est sit aliqua dolor<br>
+  do amet sint. Velit officia consequat duis enim velit mollit.<br>
+  Lorem ipsum
+  </p>
+  </div>
+  <div class="row border-top border-bottom">
+  <!-- Education 1 -->
+  <div class="row py-4 border-bottom box tbox">
+  <div class="col-md-6 fw-semibold">University Of Toronto<br><small class="text-muted st">Student </small><span class="badge bg-warning text-light">Jan 1016 - Dec 2021</span></div>
+  <div class="col-md-6">
+  <h6 class="fw-semibold mb-2">Certificate Of Web Training</h6>
+  <p class="text-muted mb-0">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+  Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.
+  </p>
+  </div>
+  </div>
+  <!-- Education 2 -->
+  <div class="row py-4 border-bottom box tbox">
+  <div class="col-md-6 fw-semibold">Programming Course<br><small class="text-muted st">Student</small><span class="badge bg-warning text-light">Jan 1016 - Dec 2021</span></div>
+  <div class="col-md-6">
+  <h6 class="fw-semibold mb-2">Certificate Of Web Training</h6>
+  <p class="text-muted mb-0">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+  Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.
+  </p>
+  </div>
+  </div>
+  <!-- Education 3 -->
+  <div class="row py-4 box tbox">
+  <div class="col-md-6 fw-semibold">Web Developer Courses<br><small class="text-muted st">Student</small><span class="badge bg-warning text-light">Jan 1016 - Dec 2021</span></div>
+  <div class="col-md-6">
+  <h6 class="fw-semibold mb-2">Certificate Of Web Training</h6>
+  <p class="text-muted mb-0">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+  Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.
+  </p>
+  </div>
+  </div>
+  </div>
+  </section>
+
+<!-- Work History Section -->
+  <section class="education-section">
+  <div class="text-center">
+  <h2 class="fw-bold">Work History</h2>
+  <p class="text-muted p">
+  Amet minim mollit non deserunt ullamco est sit aliqua dolor<br>
+  do amet sint. Velit officia consequat duis enim velit mollit.<br>
+  Lorem ipsum
+  </p>
+  </div>
+  <div class="container">
+  <div class="border-top border-bottom">
+  <!-- Work 1 -->
+  <div class="row py-4 border-bottom box tbox">
+  <div class="col-md-6 fw-semibold">Lead Web Designer<br><small class="text-muted st">Student </small><span class="badge bg-warning text-light">Jan 1016 - Dec 2021</span></div>
+  <div class="col-md-6">
+  <h6 class="fw-semibold mb-2">Certificate Of Web Training</h6>
+  <p class="text-muted mb-0">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+  Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.
+  </p>
+  </div>
+  </div>
+  <!-- Work History 2 -->
+  <div class="row py-4 border-bottom box tbox">
+  <div class="col-md-6 fw-semibold">Junior Web Designer<br><small class="text-muted st">Student</small><span class="badge bg-warning text-light">Jan 1016 - Dec 2021</span></div>
+  <div class="col-md-6">
+  <h6 class="fw-semibold mb-2">Certificate Of Web Training</h6>
+  <p class="text-muted mb-0">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+  Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.
+  </p>
+  </div>
+  </div>
+  <!-- Work History 3 -->
+  <div class="row py-4 box tbox">
+  <div class="col-md-6 fw-semibold">Senior Web Designer<br><small class="text-muted st">Student</small><span class="badge bg-warning text-light">Jan 1016 - Dec 2021</span></div>
+  <div class="col-md-6">
+  <h6 class="fw-semibold mb-2">Certificate Of Web Training</h6>
+  <p class="text-muted mb-0">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor.
+  Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.
+  </p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+
+<!-- Portfolio Section -->
+  <section class="portfolio">
+  <h2>My Portfolio</h2>
+  <p class="text-muted text-center p">
+  Amet minim mollit non deserunt ullamco est sit aliqua dolor<br>
+  do amet sint. Velit officia consequat duis enim velit mollit.<br>
+  Lorem ipsum
+  </p>
+  <!-- Filter Buttons -->
+  <div class="portfolio-filters">
+  <button class="filter-btn active" data-filter="all">All Categories</button>
+  <button class="filter-btn" data-filter="web">UI/UX Design</button>
+  <button class="filter-btn" data-filter="uiux">Web Templates</button>
+  <button class="filter-btn" data-filter="logo">Logo</button>
+  <button class="filter-btn" data-filter="brand">Branding</button>
+  </div>
+  <!-- Portfolio Grid -->
+  <div class="container">
+  <div class="row">
+  <div class="portfolio-grid">
+  <div class="portfolio-item tbox" data-category="web"><img src="image/image.png" alt="Web Project 1"></div>
+  <div class="portfolio-item tbox" data-category="uiux"><img src="image/img.png" alt="UIUX Project 1"></div>
+  <div class="portfolio-item tbox" data-category="web"><img src="image/img1.png" alt="Web Project 2"></div>
+  <div class="portfolio-item tbox" data-category="brand"><img src="image/img2.png" alt="Branding Project"></div>
+  <div class="portfolio-item tbox" data-category="uiux"><img src="image/img3.png" alt="UIUX Project 2"></div>
+  <div class="portfolio-item tbox" data-category="brand"><img src="image/img4.png" alt="Branding Project 2"></div>
+  <div class="portfolio-item tbox" data-category="brand"><img src="image/img5.png" alt="Branding Project 2"></div>
+  <div class="portfolio-item tbox" data-category="brand"><img src="image/img6.png" alt="Branding Project 2"></div>
+  <div class="portfolio-item tbox" data-category="brand"><img src="image/img7.png" alt="Branding Project 2"></div>
+  </div>
+  </div>
+  </div>
+  </section>
+
+<!-- Blog -->
+  <section class="container blog">
+  <div class="row">
+  <h2 class="h2">Blog</h2>
+  <p class="text-muted text-center p">
+  Amet minim mollit non deserunt ullamco est sit aliqua dolor<br>
+  do amet sint. Velit officia consequat duis enim velit mollit.<br>
+  Lorem ipsum
+  </p>
+  <div class="blog-list">
+  <div class="post tbox">
+  <img class="w-100" src="image/img8.png" alt="blog1" />
+  <h3>How to make web tempates</h3>
+  <p>Trends you need to act on to stay ahead.</p>
+  <a href="#" class="order-now">Learn more ></a>
+  </div>
+  <div class="post tbox">
+  <img class="w-100" src="image/img.png" alt="blog2" />
+  <h3>make Business card</h3>
+  <p class="lrn">Step-by-step case study with results.</p>
+  <a href="#" class="order-now">Learn more ></a>
+  </div>
+  <div class="post tbox">
+  <img class="w-100" src="image/img1.png" alt="blog3" />
+  <h3>How to make Flyer Design</h3>
+  <p>Step-by-step case study with results.</p>
+  <a href="#" class="order-now">Learn more ></a>
+  </div>
+  </div>
+  </div>
+  </section>
+
+<!-- Contact -->
+  <section class="contact-section">
+  <div class="container">
+  <div class="row">
+  <!-- Contact Form -->
+  <div class="col-md-6 mb-4">
+  <h5 class="mb-4 fw-bold">Leave Us Your Info</h5>
+  <form class="form">
+  <div class="mb-3">
+  <p>Your Full Name ( Required )</p>
+  <input type="text" class="form-control contact-input" placeholder="">
+  </div>
+  <div class="mb-3">
+  <p>Your Email ( Required )</p>
+  <input type="email" class="form-control contact-input" placeholder="">
+  </div>
+  <div class="mb-3">
+  <p>Subject</p>
+  <input type="text" class="form-control contact-input" placeholder="">
+  </div>
+  <div class="mb-3">
+  <p>Your Message</p>
+  <textarea class="form-control contact-input" rows="4" placeholder=""></textarea>
+  </div>
+  <button type="submit " class="btn btn-warning px-4">SEND MESSAGE</button>
+  </form>
+  </div>
+  <!-- Contact Information -->
+  <div class="col-md-6">
+  <h5 class="mb-4 fw-bold">Contact Information</h5>
+  <div class="info-box mb-3 p-3 text-center">
+  <i class="fa-solid fa-location-dot top-icon"></i>
+  <div class="info-item">
+  <div class="label lbl">Country:</div>
+  <div class="value">Bangladesh</div>
+  </div>
+  <div class="info-item">
+  <div class="label lbl">City:</div>
+  <div class="value">Dhaka</div>
+  </div>
+  <div class="info-item">
+  <div class="label lbl">Street:</div>
+  <div class="value">35 Vhatara, Badda</div>
+  </div>
+  </div>
+  <div class="info-box mb-3 p-3 text-center tbox">
+  <i class="fa-regular fa-envelope top-icon"></i>
+  <div class="info-item">
+  <div class="label lbl">Email:</div>
+  <div class="value">Youremail@Gmail.Com</div>
+  </div>
+  <div class="info-item">
+  <div class="label lbl">Skype:</div>
+  <div class="value">@Yourusername</div>
+  </div>
+  <div class="info-item">
+  <div class="label lbl">Telegram:</div>
+  <div class="value">@Yourusername</div>
+  </div>
+  </div>
+  <div class="info-box p-3 text-center tbox">
+  <i class="fa-solid fa-headset top-icon"></i>
+  <div class="info-item">
+  <div class="label lbl">Support:</div>
+  <div class="value">15389</div>
+  </div>
+  <div class="info-item">
+  <div class="label lbl">Office:</div>
+  <div class="value">+58 (021)356 587 235</div>
+  </div>
+  <div class="info-item">
+  <div class="label lbl">Personal:</div>
+  <div class="value">+58 (021)356 587 235</div>
+  </div>
+  </div>
+  </div>
+  <!-- Map -->
+  <div class="mt-4">
+  <iframe
+  src="https://maps.google.com/maps?q=San%20Francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+  allowfullscreen=""
+  loading="lazy">
+  </iframe>
+  </div>
+  </div>
+  </div>
+  </section>
+
+<!-- Logo Section -->
+  <section class="container logo-strip">
+  <div class="row logos">
+  <img class="col-lg-3 img tbox logo" src="image/lg.png" alt="Client Logo 1">
+  <img class="col-lg-3 img tbox logo" src="image/lg1.png" alt="Client Logo 2">
+  <img class="col-lg-3 img tbox logo" src="image/lg2.png" alt="Client Logo 3">
+  <img class="col-lg-3 img tbox logo" src="image/lg3.png" alt="Client Logo 4">
+  </div>
+  </section>
+
+<!--footer start-->
+  <footer class="container">
+  <div class="ft justify-content-center">
+  <p class="mb-0 text-center">
+  © 2021 All Rights Reserved <a href="https://roshnislam.com/" target="_blank">Roshni_A</a>
+  </p>
+  </div>
+  </footer>
+ <!--footer end-->
+
+<!-- JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
